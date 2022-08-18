@@ -1,1 +1,1 @@
-will be updated, project currently set to private
+will be updated, project still in development
