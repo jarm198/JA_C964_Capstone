@@ -1,0 +1,4 @@
+streamlit
+streamlit-authenticator==0.1.5
+-U scikit-learn
+plotly==5.10.0
