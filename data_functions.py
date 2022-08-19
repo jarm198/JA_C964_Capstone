@@ -67,7 +67,6 @@ def lineDataByYear(input_year, fpi_data):
 
 def lineDataByRange(start_year, end_year, fpi_data):
     index_list = []
-    # x_axis_list = []
     fpi_list = []
     meat_list = []
     dairy_list = []
@@ -79,11 +78,6 @@ def lineDataByRange(start_year, end_year, fpi_data):
         if start_year <= bucket[0] <= end_year:
             num_items = len(bucket)
             for i in range(1, num_items):
-                # date = bucket[i]['month']
-                # year = int(date[0:4])
-                # month = int(date[-2:])
-                # x_value = year + (month / 12)
-                # x_axis_list.append(x_value)
                 index_list.append(bucket[i]['month'])
                 fpi_list.append(float(bucket[i]['fpi']))
                 meat_list.append(float(bucket[i]['meat']))
@@ -92,8 +86,7 @@ def lineDataByRange(start_year, end_year, fpi_data):
                 oils_list.append(float(bucket[i]['oils']))
                 sugar_list.append(float(bucket[i]['sugar']))
 
-    df = pd.DataFrame({# 'x': x_axis_list,
-                       'fpi': fpi_list,
+    df = pd.DataFrame({'fpi': fpi_list,
                        'meat': meat_list,
                        'dairy': dairy_list,
                        'cereals': cereals_list,
