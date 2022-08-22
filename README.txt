@@ -1,7 +1,7 @@
 This software was created with Python 3.10 using the PyCharm Community 2022.2 IDE
 Streamlit Version 1.12.0 to create and deploy the application.
 
-The deployed application can be accessed atthe following link:
+The deployed application can be accessed at the following link:
 https://jarm198-ja-c964-capstone-main-r3ixmb.streamlitapp.com
 It can be accessed with the Username 'evaluator' and Password 'evaluate' (Do not include the quotation marks; both are case-sensitive)
 
