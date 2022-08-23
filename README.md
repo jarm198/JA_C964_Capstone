@@ -12,12 +12,10 @@ Download and install Python 3.10 and PyCharm Community 2022.3 (If not already in
 Create a new project in PyCharm using a virtual environment (venv)  
 Add main.py, data_functions.py, generate_keys.py, hashed_pw.pkl, and FPI.csv to the project folder  
 In PyCharm, click on 'Terminal' and enter the following commands, allowing each to finish before proceeding to the next (some take a couple minutes)  
-	(numpy should already be installed as it is a standard library, but I do it for good measure)  
-	pip install numpy  
 	pip install streamlit  
 	pip install streamlit-authenticator==0.1.5  
 	pip install -U scikit-learn  
 	pip install plotly==5.10.0  
 After all libraries are installed, enter the following in the terminal:  
 	streamlit run main.py  
-Some antiviruses may block the software when running it natively using this method. In my case, Norton blocked it and saved main.py as an empty file every time.
+Some antiviruses may block the software when running it natively using this method. In my case, Norton blocked it and main.py was saved as an empty file every time.
