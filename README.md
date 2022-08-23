@@ -1,3 +1,5 @@
+# Food Price Prediction Software as part of Computer Science Capstone
+
 This software was created with Python 3.10 using the PyCharm Community 2022.2 IDE
 Streamlit Version 1.12.0 to create and deploy the application.
 
@@ -18,4 +20,4 @@ In PyCharm, click on 'Terminal' and enter the following commands, allowing each 
 	pip install plotly==5.10.0
 After all libraries are installed, enter the following in the terminal:
 	streamlit run main.py
-Some antiviruses may block the software when running it natively using this method. In my case, Norton blocked it and corrupted main.py every time.
+Some antiviruses may block the software when running it natively using this method. In my case, Norton blocked it and saved main.py as an empty file every time.
